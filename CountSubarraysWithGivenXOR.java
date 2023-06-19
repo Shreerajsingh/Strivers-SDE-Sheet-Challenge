@@ -9,7 +9,7 @@ public class CountSubarraysWithGivenXOR {
 		Map<Integer, Integer> visited = new HashMap<>();
         visited.put(0, 1);  // Store 0th index XOR as 0 in visited
 
-        int cx = 0;
+        var cx = 0;
         int c = 0;
 
         for (int i = 0; i < arr.size(); i++) {
