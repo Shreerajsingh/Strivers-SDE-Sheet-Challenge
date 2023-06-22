@@ -5,6 +5,7 @@ public class PairSum{
     public static List<int[]> pairSum(int[] arr, int s) {
         // Write your code here.
         Arrays.sort(arr);
+        
         HashMap<Integer,Integer> map= new HashMap<>();
         List<int[]> list = new ArrayList<>();
 
